@@ -1,16 +1,84 @@
-# React + Vite
+Proyecto: CV en React – Actividad 3.4
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto corresponde al desarrollo del currículo (CV) modularizado utilizando componentes de React, siguiendo las instrucciones de la guía 2 – Punto 3.4: Implementación de componentes.
 
-Currently, two official plugins are available:
+El objetivo del ejercicio es estructurar un CV a través de componentes reutilizables, organizados en carpetas y vinculados en el componente principal App.jsx.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Componentes creados en el punto 3.4
 
-## React Compiler
+Durante esta actividad se crearon los siguientes componentes dentro de la carpeta src/components/:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. CabeceraCV.jsx
 
-## Expanding the ESLint configuration
+Contiene nombre, rol y datos personales básicos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Perfil.jsx
+
+Incluye una breve descripción profesional y habilidades blandas destacadas.
+
+3. Experiencia.jsx
+
+Registra experiencias laborales previas.
+
+4. Educacion.jsx
+
+Describe la formación académica realizada.
+
+5. Habilidades.jsx
+
+Lista habilidades técnicas y competencias personales relevantes.
+
+(Continuar componiendo Proyectos, Contacto y Footer en caso de necesitarse más adelante.)
+
+Integración en App.jsx
+
+Todos los componentes fueron importados en App.jsx, de la siguiente manera:
+
+import CabeceraCV from "./components/CabeceraCV";
+import Perfil from "./components/Perfil";
+import Experiencia from "./components/Experiencia";
+import Educacion from "./components/Educacion";
+import Habilidades from "./components/Habilidades";
+
+function App() {
+return (
+<>
+<CabeceraCV />
+<Perfil />
+<Experiencia />
+<Educacion />
+<Habilidades />
+</>
+);
+}
+
+export default App;
+
+Ejecución del proyecto
+
+Para ejecutar el proyecto en un servidor de desarrollo:
+
+npm install
+npm run dev
+
+El proyecto se abrirá en:
+
+http://localhost:5173/
+
+Commits realizados en la actividad 3.4
+
+Cada componente incluye su commit correspondiente:
+
+feat: componente CabeceraCV con datos personales actualizados
+
+feat: componente Perfil con descripción personalizada
+
+feat: componente Experiencia laboral creado
+
+feat: componente Educación agregado
+
+feat: componente Habilidades integrado
+
+Conclusión
+
+El punto 3.4 permitió crear una estructura modular, ordenada y mantenible del CV a través de React, siguiendo buenas prácticas de componentes y control de versiones con Git.
