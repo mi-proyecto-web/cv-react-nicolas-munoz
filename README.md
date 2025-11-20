@@ -28,7 +28,7 @@ Describe la formación académica realizada.
 
 Lista habilidades técnicas y competencias personales relevantes.
 
-(Continuar componiendo Proyectos, Contacto y Footer en caso de necesitarse más adelante.)
+Continuar componiendo Proyectos, Contacto y Footer en caso de necesitarse más adelante.
 
 Integración en App.jsx
 
