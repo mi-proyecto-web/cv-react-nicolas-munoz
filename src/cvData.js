@@ -3,8 +3,8 @@
 export const datosPersonales = {
   nombre: "Nicolás Muñoz",
   cargo: "Desarrollador Frontend Junior",
-  ciudad: "Colombia - Cali",
-  contacto: "nicolas@example.com",
+  ciudad: "Colombia - Medellin",
+  contacto: "nicomunosh@gmail.com",
 };
 
 export const resumenPerfil = `
