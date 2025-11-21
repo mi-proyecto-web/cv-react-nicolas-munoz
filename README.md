@@ -82,3 +82,39 @@ feat: componente Habilidades integrado
 Conclusión
 
 El punto 3.4 permitió crear una estructura modular, ordenada y mantenible del CV a través de React, siguiendo buenas prácticas de componentes y control de versiones con Git.
+
+EV06 – Componentes dinámicos y renderizado condicional en React
+
+En esta actividad se implementaron componentes dinámicos en React utilizando:
+
+Renderizado de listas mediante map()
+
+Renderizado condicional mediante funciones lógicas
+
+Arreglos de datos estructurados
+
+Buenas prácticas de organización de componentes
+
+Componentes creados en EV06
+
+1. Experiencia.jsx (Dinámico)
+
+Contiene 10 experiencias laborales o proyectos.
+
+Cada elemento incluye cargo, empresa, año y funciones.
+
+Renderizado automático con map().
+
+2. Educacion.jsx (Dinámico)
+
+Lista de cursos, estudios y formación complementaria.
+
+10 elementos renderizados desde un array.
+
+3. StackTecnologias.jsx (Dinámico + Condicional)
+
+Lista de tecnologías representadas con “etiquetas”.
+
+Cada tecnología muestra un color diferente según su nombre.
+
+Se usó una función condicional getColor() para asignar colores.
