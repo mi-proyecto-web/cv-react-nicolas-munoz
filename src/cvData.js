@@ -3,15 +3,17 @@
 export const datosPersonales = {
   nombre: "Nicolás Muñoz",
   cargo: "Desarrollador Frontend Junior",
-  ciudad: "Colombia - Medellin",
+  ciudad: "Colombia - Medellín",
   contacto: "nicomunosh@gmail.com",
 };
 
-export const resumenPerfil = `
+// Cambiado de resumenPerfil → perfil
+export const perfil = `
 Soy un desarrollador en formación con conocimientos en HTML, CSS, JavaScript y React. 
 Apasionado por el frontend y en constante aprendizaje para mejorar mis habilidades.
 `;
 
+// Correcto (mantiene el mismo nombre)
 export const experiencias = [
   {
     cargo: "Desarrollador Frontend",
@@ -28,7 +30,8 @@ export const experiencias = [
   },
 ];
 
-export const formaciones = [
+// Cambiado de formaciones → educacion
+export const educacion = [
   {
     institucion: "SENA",
     curso: "Tecnólogo en Análisis y Desarrollo de Software",
@@ -40,3 +43,6 @@ export const formaciones = [
     año: "2024",
   },
 ];
+
+// Para EV08
+export const tecnologiasIniciales = ["HTML", "CSS", "JavaScript", "React"];
