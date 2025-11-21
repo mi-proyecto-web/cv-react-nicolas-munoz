@@ -79,6 +79,10 @@ feat: componente Educación agregado
 
 feat: componente Habilidades integrado
 
+Captura del CV
+
+![el cv](<src/assets/brave_screenshot_localhost (1).png>)
+
 Conclusión
 
 El punto 3.4 permitió crear una estructura modular, ordenada y mantenible del CV a través de React, siguiendo buenas prácticas de componentes y control de versiones con Git.
@@ -118,3 +122,7 @@ Lista de tecnologías representadas con “etiquetas”.
 Cada tecnología muestra un color diferente según su nombre.
 
 Se usó una función condicional getColor() para asignar colores.
+
+Captura componente dinamico y renderizado
+
+src\assets\brave_screenshot_localhost.png
