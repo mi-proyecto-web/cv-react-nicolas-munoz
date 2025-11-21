@@ -80,8 +80,7 @@ feat: componente Educación agregado
 feat: componente Habilidades integrado
 
 Captura del CV
-
-![el cv](<src/assets/brave_screenshot_localhost (1).png>)
+![El CV](src/assets/captura-CV.png)
 
 Conclusión
 
@@ -125,4 +124,4 @@ Se usó una función condicional getColor() para asignar colores.
 
 Captura componente dinamico y renderizado
 
-src\assets\brave_screenshot_localhost.png
+![EV06](src/assets/captura-ev06.png)
