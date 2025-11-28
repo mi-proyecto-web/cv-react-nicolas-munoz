@@ -210,7 +210,7 @@ Acceder en el navegador:
 👉 http://localhost:5173/
 
 5. Captura del resultado
-   ![EV05](src/assets/Captura-05.png)
+   ![EV05](src/assets/Captura-ev05.png)
 
 6. Commits realizados en la EV05
 
